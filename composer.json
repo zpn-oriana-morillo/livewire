@@ -38,9 +38,10 @@
             "Tests\\": "tests/"
         }
     },
-    "replace": {
-        "davedevelopment/hamcrest-php": "*"
-    },
+    "conflict": {
+    "hamcrest/hamcrest-php": "2.0.0"
+},
+
     "extra": {
         "laravel": {
             "providers": [
